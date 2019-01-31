@@ -3,10 +3,10 @@ import glob
 
 HomePath = os.path.expanduser("~")
 
-UnityBasePath = '/opt/Unity'
+UnityHubBasePath = '/opt/Unity'
 ApplicationsPath = os.path.join(HomePath, '.local/share/applications')
 
-UnityVersionNames = [ Dir for Dir in os.listdir(UnityBasePath) if os.path.isdir(os.path.join(UnityBasePath, Dir)) ]
+UnityVersionNames = [ Dir for Dir in os.listdir(UnityHubBasePath) if os.path.isdir(os.path.join(UnityHubBasePath, Dir)) ]
 TemplateApplicationFiles = [ File for File in os.listdir('.') if File.endswith(".desktop") ]
 
 
