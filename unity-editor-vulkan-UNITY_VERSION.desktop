@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Unity UNITY_VERSION (Vulkan)
+Icon=/opt/Unity/unity-editor-icon.png
+Exec=/opt/Unity/UNITY_VERSION/Editor/Unity -force-vulkan %U
+NoDisplay=false
+Categories=Application;Development;IDE;
+MimeType=x-scheme-handler/com.unity3d.kharma;
+StartupNotify=true
+Terminal=false
